@@ -1,0 +1,3 @@
+black=com.buge.dubboapi.spi.BlackCar
+red=com.buge.dubboapi.spi.RedCar
+nb=com.buge.dubboapi.spi.NBCar
