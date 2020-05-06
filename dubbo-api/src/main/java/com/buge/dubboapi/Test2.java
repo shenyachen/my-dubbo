@@ -58,6 +58,7 @@ public class Test2 {
         int mindle = (low + high) / 2;
         sort(a, low, mindle);
         sort(a, mindle + 1, high);
+        return 0;
     }
 
     private static List<int[]> split(int b, int[] a) {

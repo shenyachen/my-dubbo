@@ -75,7 +75,7 @@
             <version>2.7.0</version>
         </dependency>
 
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <exclusions>
@@ -93,11 +93,18 @@
                 </exclusion>
             </exclusions>
             <version>2.0.1.RELEASE</version>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <!--<version>2.1.2.RELEASE</version>-->
+        </dependency>
+        <!--mqtt-->
+        <dependency>
+            <groupId>org.fusesource.mqtt-client</groupId>
+            <artifactId>mqtt-client</artifactId>
+            <version>1.15</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -107,7 +114,7 @@
         </dependency>
     </dependencies>
 
-    <!--<dependencyManagement>
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -117,7 +124,7 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>-->
+    </dependencyManagement>
 
     <build>
         <plugins>
